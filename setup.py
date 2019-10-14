@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="autodraft-j4th",
-    version="0.0.2",
+    name="autodraft",
+    version="0.0.3",
     author="Justin Forth",
     author_email="justinforth@gmail.com",
     description="A small package for the AutoDraft streamlit app as well as working with the NHL's API.",
