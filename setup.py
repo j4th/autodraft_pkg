@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="autodraft-j4th",
-    version="0.0.1",
+    version="0.0.2",
     author="Justin Forth",
     author_email="justinforth@gmail.com",
     description="A small package for the AutoDraft streamlit app as well as working with the NHL's API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/j4th/autodraft_pkg",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
